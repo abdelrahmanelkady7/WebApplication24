@@ -1,0 +1,50 @@
+﻿body {
+    background-image: url("https://img.freepik.com/free-photo/blur-hospital_1203-7957.jpg?size=626&ext=jpg&ga=GA1.1.1012473797.1702064783&semt=ais");
+    background-size: cover;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-family:'Times New Roman';
+    position:relative;
+
+}
+
+.container {
+    background-color: rgb(57, 199, 241, 0.70);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white; /* Text color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+    .gv-container {
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position :relative;
+    left:200px;
+}
+
+
+.reserve-button {
+    text-decoration: none;
+    background-color: rgb(57, 199, 241);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: relative;
+    bottom: 30px;
+    left: 1300px;
+}
+
+.reserve-button:hover {
+        background-color: #00FFFF;
+        color: #fff;
+}
